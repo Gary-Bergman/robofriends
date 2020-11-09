@@ -1,0 +1,34 @@
+.cardComp {
+    height: 500px;
+    width: 350px;
+    /* left: 44%;
+    right: 50%; */
+    margin: 20px;
+}
+
+.cardImage1 {
+    height: 200px;
+    width: 200px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
