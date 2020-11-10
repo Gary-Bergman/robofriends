@@ -1,6 +1,6 @@
 .cardComp {
-    height: 500px;
-    width: 350px;
+    height: 320px;
+    width: 250px;
     /* left: 44%;
     right: 50%; */
     margin: 20px;
@@ -12,9 +12,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /* border: 2px solid black; */
     /* width: 50%; */
-
 }
+
+/* .cb {
+  max-height: fit-content;
+} */
 
 /* Grow */
 .hvr-grow {
